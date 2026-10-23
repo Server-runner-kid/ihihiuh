@@ -1,0 +1,22 @@
+{
+  "name": "ihihiuh",
+  "main": "worker.js",
+  "compatibility_date": "2026-08-12",
+  "vars": {
+    "SERVER": "https://upgraded-lamp-9697wpj9v77w3xr6r-25565.app.github.dev/"
+  },
+  "durable_objects": {
+    "bindings": [
+      {
+        "name": "EAGLER_PROXY",
+        "class_name": "EaglerProxy"
+      }
+    ]
+  },
+  "migrations": [
+    {
+      "tag": "v1",
+      "new_sqlite_classes": ["EaglerProxy"]
+    }
+  ]
+}
